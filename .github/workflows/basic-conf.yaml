@@ -1,10 +1,10 @@
 name: New One
 
-on: 
- push:
-  jobs:
-   jobs-name:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Step Name
-	run:  echo "Hello World"
+on: push
+jobs:
+ job-name:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Step Name
+      run: echo "Hello World"
+
