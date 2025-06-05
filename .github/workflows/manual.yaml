@@ -6,7 +6,7 @@ on:
 jobs:
  manual-run:
   runs-on: ubuntu-latest
-   steps:
+  steps:
    - name: Say Hi
       run: echo "This Was Manually triggered!"
 
