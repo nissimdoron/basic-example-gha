@@ -8,5 +8,5 @@ jobs:
   runs-on: ubuntu-latest
   steps:
    - name: Say Hi
-      run: echo "This Was Manually triggered!"
+     run: echo "This Was Manually triggered!"
 
